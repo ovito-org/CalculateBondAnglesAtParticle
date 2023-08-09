@@ -63,7 +63,7 @@ class CalculateBondAnglesAtParticle(ModifierInterface):
         positions = data.particles.positions
         topology = data.particles.bonds.topology
         bond_vectors = positions[topology[:,1]] - positions[topology[:,0]]
-        if data.particles.bonds.pbc_vectors != None:
+        if "Periodic Image" in data.particles.bonds:
             bond_vectors += np.dot(data.cell[:3,:3], data.particles.bonds.pbc_vectors.T).T
         data.particles_.bonds_.create_property("Bond vectors", data = bond_vectors)    
         # Get all possible combinations of bond pairs at one particle, the corresponding 
