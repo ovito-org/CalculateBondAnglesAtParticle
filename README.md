@@ -10,7 +10,7 @@ Python modifier for *OVITO* that looks up all bonds connected to the specified p
 - `bond_mode` / "List bonds by: Index/Identifier": Choose wheter output bond pairs are listed by their index or identifier.
 
 ## Example
-![Screenshot of OVITO Pro Desktop application](./Examples/CalculateBondAnglesAtParticlesModifier.png)
+![Screenshot of OVITO Pro Desktop application](./Examples/CalculateBondAnglesAtParticleModifier.png)
 
 ## Installation
 - OVITO Pro built-in Python interpreter
