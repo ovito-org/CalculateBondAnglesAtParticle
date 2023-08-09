@@ -13,7 +13,7 @@ Python modifier for *OVITO* that looks up all bonds connected to the specified p
 ![Screenshot of OVITO Pro Desktop application](./Examples/CalculateBondAnglesAtParticlesModifier.png)
 
 ## Installation
-- OVITO PRO built-in Python interpreter
+- OVITO Pro built-in Python interpreter
 ```
 ovitos -m pip install --user git+https://github.com/ckalcher/CalculateBondAnglesAtParticle.git
 ``` 
