@@ -6,8 +6,8 @@ Python modifier for *OVITO* that looks up all bonds connected to the specified p
 
 ## Parameters 
 - `center_particle` / "Compute for particle": The particle index or identifier of the central particle that all bonds are attached to.
-- `mode` / "Choose particle by: Index/Identifier": Choose wheter input center particle is specified by index or identifier.
-- `bond_mode` / "List bonds by: Index/Identifier": Choose wheter output bond pairs are listed by their index or identifier.
+- `mode` / "Choose particle by: Index/Identifier": Choose whether input center particle is specified by index or identifier.
+- `bond_mode` / "List bonds by: Index/Identifier": Choose whether output bond pairs are listed by their index or identifier.
 
 ## Example
 ![Screenshot of OVITO Pro Desktop application](./Examples/CalculateBondAnglesAtParticleModifier.png)
@@ -15,11 +15,11 @@ Python modifier for *OVITO* that looks up all bonds connected to the specified p
 ## Installation
 - OVITO Pro built-in Python interpreter
 ```
-ovitos -m pip install --user git+https://github.com/ckalcher/CalculateBondAnglesAtParticle.git
+ovitos -m pip install --user git+https://github.com/ovito-org/CalculateBondAnglesAtParticle.git
 ``` 
 - Standalone Python package or Conda environment
 ```
-pip install --user git+https://github.com/ckalcher/CalculateBondAnglesAtParticle.git
+pip install --user git+https://github.com/ovito-org/CalculateBondAnglesAtParticle.git
 ```
 - Please note that the `--user` tag is recommended but optional and depends on your Python installation.
 
